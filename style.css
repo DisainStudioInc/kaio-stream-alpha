@@ -1,0 +1,60 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color: black;
+}
+
+header {
+
+  width:100%;
+ margin:0px;
+ padding:0px;
+ background-color:cyan;
+ position: fixed;
+
+ margin-top:-20px ;
+ z-index: 1;
+ box-shadow:  0px 5px 5px;
+}
+
+header p {
+  text-align: center;
+  color: black;
+  font-family: Nova Square;
+}
+
+/*Listado de series */
+
+#container{
+  background-color: grey;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+#series {
+  width:100%;
+  background-color:grey;
+}
+
+#series :hover{
+  background-color: grey;
+}
+
+#series img{
+  width:100%;
+  padding-top: 10px;
+}
+
+#series p{
+  text-decoration: none;
+  text-align: center;
+  padding-left:10%;
+  color: white;
+  background-color: grey;
+  display: inline;
+  font-family: Nova Square;
+}
+
+embed{
+  android:orientation="horizontal"
+}
