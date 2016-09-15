@@ -7,13 +7,15 @@ body{
 #navbar{
   width:100%;
   position: fixed;
-  margin-top:-43px;
+  margin-top:-0px;
   padding:0px;
 display: flex;
 flex-flow: row wrap;
 justify-content: center ;
 align-items: center ;
 align-content: stretch;
+margin-bottom: 30px;
+z-index: 2;
  }
 
  #navbar header {
@@ -22,7 +24,8 @@ align-content: stretch;
  padding:0px;
  background-color:cyan;
  margin-top:-0px ;
- z-index: 1;
+ margin-bottom: 100px;
+ z-index: 2;
  box-shadow:  -1.5px 5px 5px;
 overflow:hidden;
 }
@@ -43,14 +46,30 @@ overflow:hidden;
   padding-right: 3%;
  }
 
+#navbar header nav{
+  display:block;
+
+}
+
+.menu_bar{
+  margin-top: 50px;
+  overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  background-color: cyan;
+  width:50%;
+  height: 100%;
+  left: -100%;
+  font-family: Nova Square;
+}
 
 
 #container{
   background-color: grey;
   z-index: 0;
   margin-top: 0px;
-
   position: static;
+  overflow: hidden;
 }
 
 .bloques{
