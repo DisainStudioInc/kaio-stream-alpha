@@ -1,60 +1,34 @@
 body{
   margin:0px;
   padding:0px;
-  background-color: grey;
+  background-color: black;
 }
 
-#navbar{
-  width:100%;
-  position: fixed;
-  margin-top:-43px;
-  padding:0px;
-display: flex;
-flex-flow: row wrap;
-justify-content: center ;
-align-items: center ;
-align-content: stretch;
- }
+header {
 
- #navbar header {
   width:100%;
  margin:0px;
  padding:0px;
  background-color:cyan;
- margin-top:-0px ;
+ position: fixed;
+
+ margin-top:-20px ;
  z-index: 1;
- box-shadow:  -1.5px 5px 5px;
-overflow:hidden;
+ box-shadow:  0px 5px 5px;
 }
 
-#navbar img{
-  float: left;
-  line-height:100px;
-  box-sizing:border-box;
-  margin-top: 10px;
-  padding-left: 3%;
-}
-
- #navbar  p {
+header p {
   text-align: center;
   color: black;
   font-family: Nova Square;
-  float: right;
-  padding-right: 3%;
- }
+}
 
-
+/*Listado de series */
 
 #container{
   background-color: grey;
   z-index: 0;
-  margin-top: 0px;
-
-  position: static;
-}
-
-.bloques{
-  margin-top: 43px;
+  margin-top: 20px;
 }
 
 #series {
@@ -79,4 +53,7 @@ overflow:hidden;
   background-color: grey;
   display: inline;
   font-family: Nova Square;
+}
+p{
+  color:white;
 }
