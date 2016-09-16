@@ -14,8 +14,9 @@ flex-flow: row wrap;
 justify-content: center ;
 align-items: center ;
 align-content: stretch;
-margin-bottom: 30px;
-z-index: 2;
+margin-bottom: 0px;
+height: 50px;
+
  }
 
  #navbar header {
@@ -23,7 +24,7 @@ z-index: 2;
  margin:0px;
  padding:0px;
  background-color:cyan;
- margin-top:-0px ;
+ margin-top:95px ;
  margin-bottom: 100px;
  z-index: 2;
  box-shadow:  -1.5px 5px 5px;
@@ -53,7 +54,6 @@ overflow:hidden;
 
 .menu_bar{
   margin-top: 50px;
-  overflow: hidden;
   z-index: 1;
   position: fixed;
   background-color: cyan;
@@ -61,6 +61,7 @@ overflow:hidden;
   height: 100%;
   left: -100%;
   font-family: Nova Square;
+
 }
 /* lista de capitulos*/
 
