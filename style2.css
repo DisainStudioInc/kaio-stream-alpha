@@ -1,0 +1,102 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color: black;
+}
+
+#navbar{
+  width:100%;
+  position: fixed;
+  margin-top:-95px;
+  padding:0px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center ;
+align-items: center ;
+align-content: stretch;
+height: 50px;
+
+
+ }
+
+ #navbar header {
+  width:100%;
+ margin:0px;
+ padding:0px;
+ background-color:cyan;
+ margin-top:95px ;
+ margin-bottom: 100px;
+ z-index: 2;
+ box-shadow:  -1.5px 5px 5px;
+overflow:hidden;
+}
+
+#navbar img{
+  float: left;
+  line-height:100px;
+  box-sizing:border-box;
+  margin-top: 10px;
+  padding-left: 3%;
+}
+
+ #navbar  p {
+  text-align: center;
+  color: black;
+  font-family: Nova Square;
+  float: right;
+  padding-right: 3%;
+ }
+
+#navbar header nav{
+  display:block;
+
+}
+
+.menu_bar{
+  margin-top: 50px;
+  z-index: 1;
+  position: fixed;
+  background-color: cyan;
+  width:50%;
+  height: 100%;
+  left: -100%;
+  font-family: Nova Square;
+
+}
+
+
+#container{
+  background-color: grey;
+  z-index: 0;
+  margin-top: 0px;
+  position: static;
+  overflow: hidden;
+}
+
+.bloques{
+  margin-top: 43px;
+}
+
+#peliculas {
+  width:100%;
+  background-color:grey;
+}
+
+#peliculas :hover{
+  background-color: grey;
+}
+
+#peliculas img{
+  width:100%;
+  padding-top: 10px;
+}
+
+#peliculas p{
+  text-decoration: none;
+  text-align: center;
+  padding-left:10%;
+  color: white;
+  background-color: grey;
+  display: inline;
+  font-family: Nova Square;
+}
